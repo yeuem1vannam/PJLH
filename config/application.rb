@@ -26,5 +26,6 @@ module PhuongJLeH
       g.assets          false
       g.helper          false
     end
+    config.action_dispatch.default_headers.merge!('X-Frame-Options' => "ALLOW-FROM http://yeuem1vannam.com")
   end
 end
